@@ -1,0 +1,563 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.layout{
+    height: 3500px;
+    width: 100%;
+    background-color: white;
+}
+
+/* first page */
+.structer,.block{
+    background-color: #FFFFFF;
+}
+    
+.structer{
+    height: 70px;
+    width: 100%;
+   }
+
+.block{
+    height: 70px;
+    width: 100%;
+    }
+
+.head{
+    margin-top: 23px;
+     float: left;
+    font-size: 24px;
+    font-family: "Inter Tight", sans-serif;
+     margin-left: 100px;
+     font-weight: bold;
+    }
+        
+.head:hover
+    {color: orangered;  
+        }
+ul li a:hover{
+    color: orangered;
+    border-bottom: 2px solid grey;
+    }
+        
+.nav-bar{
+    float: left;
+    margin-left: 290px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: sans-serif;
+       
+    
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+        
+    li{
+        display: inline;
+        padding: 30px;
+      }
+       }  
+        
+.nav-bar a{
+    text-decoration: none;
+    color: grey;
+    }
+
+.contact{
+    float:right;
+    margin: 0 auto;
+    margin-top: 21px;
+    margin-right: 125px;
+    margin-bottom: 10px;
+    margin-left: 3;
+    }
+
+.fashion-image{
+    background-image: url(./medium-shot-business-women-high-five.jpeg);
+    height: 700px;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    opacity: 0.95;
+    }
+    
+.image{
+    position: relative;
+}
+
+.content1,.content2,.content3{
+    color: #FFFFFF;
+}
+
+.content1{
+    font-size: 62px;
+    font-family: sans-serif;
+    margin-top: 300px;
+    position: absolute;
+    margin-left: 120px;
+    font: 50px;
+}
+
+.content2{
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top: 375px;
+    margin-left: 120px;
+    opacity: 0.6;
+    
+}
+
+.content3{
+    position: absolute;
+    margin-left: 123px;
+    margin-top: 30px;
+    font-size: 16px;
+    font: bold;
+    font-family: sans-serif;
+    background-color: black;
+    width: 16%;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 45px;
+    
+}
+
+.content3 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+content3 p:hover {
+    background-color: orangered;
+}
+
+/* second page */
+
+.layout2{
+    height: 600px;
+    width: 100%;
+}
+
+.start,links,.layout2,.links{
+    background-color: #FFFFFF;
+}
+.start{
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 42px;
+    font-family: sans-serif;
+}
+.container{
+    height: 400px;
+    width: 100%;
+    background-color: #FFFFFF
+}
+
+.menu-bar{
+    height: 400px;
+    width: 20%;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.links{
+    height: 200px;
+    width: 60%;
+    background-color: #FFFFFF;
+    margin-left: 125px;
+    margin-top: 100px;
+    font-size: 18px;
+    float: left;
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    }
+    
+li{
+    padding: 10px;
+  }
+
+  .links ul li a {
+    text-decoration: none;
+    color: grey;
+  }
+
+  ul li a:hover{
+    color: orangered;
+    border-bottom: 2px solid grey;
+    }
+
+
+.image-second{
+    background-image: url('pim-chu-z6NZ76_UTDI-unsplash.jpeg');    
+    height: 400px;
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+}
+
+.text{
+    height: 400px;
+    width: 30%;
+    background-color: #FFFFFF;
+    float: right;
+    margin-right: 100px;
+}
+
+.text1{
+    font-size: 32px;
+    font-family: sans-serif;
+    margin-left: 28px;
+    
+}
+
+.text2{
+    margin-left: 28px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 25px;
+    opacity: 0.6;
+    
+}
+
+.text2 a{
+    text-decoration: none;
+    color: grey;
+}
+
+.text2 a:hover{
+    color: orangered;
+}
+
+.text3{
+    margin-left: 28px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 25px;
+    opacity: 0.6;
+}
+
+.text4{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 28px;
+    margin-top: 110px;
+}
+
+.text4 a{
+    text-decoration: none;
+    color: grey;
+}
+
+    .text4 a:hover{
+        color: orangered;
+    }
+
+
+
+    /* Third page */
+
+.layout3{
+    height: 650px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.containers{
+    height: 500px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-bottom: 100px;
+
+}
+
+.container1{
+    background-image: url('retail-shop-owner-mask-social-distancing-shopping.jpg');
+    height: 500px;
+    width: 50%;
+    background-color: #FFFFFF;
+    float: left;
+    margin-top: 50px;
+    background-position: top;
+    background-size: cover;
+}
+
+.container2{
+    height: 500px;
+    width: 50%;
+    background-color: azure;
+    float: right;
+    margin-top: 50px;
+}
+
+.text5{
+    font-size: 42px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 130px;
+}
+
+.text6{
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-left: 85px;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+.text7{
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 85px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+.text7 a{
+    text-decoration: none;
+    color: grey;
+}
+
+.text7 a:hover{
+    color: orangered;
+    }
+
+    /* fourth page */
+
+    .layout4{
+        height: 800px;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    .slick-title{
+      height: 100px;
+      width: 100%;
+      background-color: #FFFFFF;
+      text-align: center;
+      font-size: 42px;
+      color: black;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+    .container4{
+        height: 440px;
+        width: 100%;
+        background-color:#FFFFFF;
+        position: relative;
+
+    }
+    
+   
+    .third-image{
+        background-image: url('evan-mcdougall-qnh1odlqOmk-unsplash.jpeg');
+        height: 400px;
+        width: 25%;
+        float: left;
+        margin-left: 140px;
+        background-position: top;
+        background-size: cover;
+        }
+
+    .third-content{
+        margin-top: 15px;
+        margin-left: 20px;
+        border: 1px solid white;
+        float: left;
+        padding: 3px;
+        background-color: #FFFFFF;
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: grey;
+        
+    }
+
+    .third-heart{
+        float: right;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+
+    .fourth-image{
+        background-image: url('jordan-nix-CkCUvwMXAac-unsplash.jpeg');
+        height: 400px;
+        width: 25%;
+        float: left;
+        margin-left: 40px;
+        background-position: top;
+        background-size: cover;
+       
+    }
+
+    .fourth-content{
+      margin-top: 10px;
+      margin-left: 20px;
+      border: 1px solid white;
+      float: left;
+      padding: 5px;
+      background-color: #FFFFFF;
+      font-size: 12px;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: grey;
+    }
+
+    .fourth-heart{
+        float: right;
+        margin-top: 15px;
+        margin-right: 15px;
+        
+    }
+
+    .fifth-image{
+        background-image: url('nature-zen-3Dn1BZZv3m8-unsplash.jpeg');
+        height: 400px;
+        width: 25%; 
+        float: right;
+        margin-right: 160px;
+        background-position: top;
+        background-size: cover;
+    }
+
+    .fifth-heart{
+        margin-top: 15px;
+        margin-left: 340px;
+    }
+    .texts{
+        height: 20px;
+        width: 0 auto;
+        background-color: #FFFFFF;
+    }
+    
+    .tree-content{
+        margin-top:;
+        height: 20px;
+        width: fit-content;
+        font-size: 24px;
+        font-family: sans-serif;
+        font: bold;
+        float: left;
+        margin-left: 155px;
+        
+    }
+    .tree-content a{
+        text-decoration: none;
+        color: black;
+    }
+    .tree-content a:hover{
+        color: orangered;
+        }
+
+    .fashion-content{
+        height: 20px;
+        width: fit-content;
+        float: left;
+        margin-left: 325px;
+        font-size: 24px;
+        font-family: sans-serif;
+        font: bold;
+    }
+
+    .fashion-content a{
+        text-decoration: none;
+        color: black;
+    }
+    .fashion-content a:hover{
+        color: orangered;
+        }
+    .juice-content{
+        height: 20px;
+        width:fit-content;
+        float: right;
+        margin-right: 400px;
+        font-size: 24px;
+        font-family: sans-serif;
+        font: bold;
+        }
+    .juice-content a{
+        text-decoration: none;
+        color: black;
+    }
+    .juice-content a:hover{
+        color: orangered;
+        }
+     .contents{
+        height: 20px;
+        width: 100%;
+        background-color: #FFFFFF;
+     }
+     
+     
+     .content4{
+       float: left;
+       margin-left: 157px;
+       margin-top: 10px;
+       opacity: 0.7;
+       font: bold;
+       font-size: 14px;
+       font-family: sans-serif;
+       height: 20px;
+       width: fit-content;
+   } 
+    .content5{
+        float: left;
+        margin-left: 190px;
+        margin-top: 10px;
+        opacity: 0.7;
+        font: bold;
+        font-size: 14px;
+        font-family: sans-serif;
+        height: 20px;
+        width: fit-content;
+        
+     }
+
+     .content6{
+        float: right;
+        margin-right: 355px;
+        margin-top: 10px;
+        opacity: 0.7;
+        font: bold;
+        font-size: 14px;
+        font-family: sans-serif;
+        height: 20px;
+        width: fit-content;
+        
+    }
+
+    .content7{
+        margin-top: 70px;
+        text-align: center;
+        font-size: 13px;
+        font: bold;
+        font-family: sans-serif;
+    }
+
+    .content7 a{
+      color: black;
+    }
+    .content7 a:hover{
+        color: orangered;
+    }
+
+    
+    
+       
+    
+
+    
+
+   
+    
+
+    
